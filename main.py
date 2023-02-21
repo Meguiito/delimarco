@@ -109,6 +109,7 @@ def download_image(id):
 @app.route("/Images", methods=["GET"])
 def get_images():
     images = list(db2.Images.find({}))
+    print(images)
     return jsonify({"images": [{"id": str(image["_id"]), "image": image["image"], "nfact": image["nfact"]} for image in images]})
 
  
