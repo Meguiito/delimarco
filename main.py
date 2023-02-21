@@ -1,8 +1,7 @@
-from flask import Flask, jsonify, request, make_response, send_file, request
+from flask import Flask, jsonify, request, make_response, send_file
 import io
 import flask
 from io import BytesIO
-from gridfs.errors import NoFile
 import base64
 from flask_pymongo import PyMongo
 from flask_cors import CORS, cross_origin
