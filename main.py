@@ -8,7 +8,7 @@ from flask_cors import CORS, cross_origin
 from pymongo import MongoClient
 import os
 import bson
-from bson import ObjectId
+from bson.objectid import ObjectId
 from dotenv import load_dotenv
 load_dotenv()
 
