@@ -3,7 +3,7 @@ import io
 import flask
 from io import BytesIO
 import base64
-from flask_pymongo import PyMongo
+from pymongo import PyMongo
 from flask_cors import CORS, cross_origin
 from pymongo import MongoClient
 import os
