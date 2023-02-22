@@ -3,6 +3,7 @@ import io
 import flask
 from io import BytesIO
 import base64
+import waitress
 from pymongo import PyMongo
 from flask_cors import CORS, cross_origin
 from pymongo import MongoClient
